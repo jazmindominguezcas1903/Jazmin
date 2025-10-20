@@ -6,7 +6,7 @@ module my_addr::my_token {
     use std::string::String;
 
     /// Estructura que representa cada token como un objeto único en Sui.
-    /// Personalizado para el proyecto de Jazmin Dominguez.
+
     struct MyToken has key, store {
         id: object::UID,
         name: String,
