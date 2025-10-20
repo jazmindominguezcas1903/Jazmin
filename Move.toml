@@ -1,0 +1,10 @@
+[package]
+name = "SuiObjectToken"
+version = "0.0.1"
+
+[addresses]
+my_addr = "0x0"
+
+[dependencies]
+# Dependencias referenciales (ajusta si necesitas una versión específica)
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "main" }
